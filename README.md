@@ -16,7 +16,7 @@ A powerful Chrome extension that uses the Google Gemini API to summarize and exp
 * **Secure API Key Storage**: Your personal Gemini API key is stored securely using `chrome.storage.sync`.
 
 ---
-Here’s a preview of the app running locally:
+Here’s a preview of the google chrome extension running locally:
 
 <table>
   <tr>
