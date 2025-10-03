@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AI Summeriser Extension</title>
+        <link rel="stylesheet" href="popup.css" />
+    </head>
+
+    <body>
+        <h2>AI Explainer</h2>
+        <div class="Options">
+            <select id = "summary-type">
+                <option value="brief">Brief</option>
+                <option value="detailed">Detailed</option>
+                <option value="easy">Easy Explanation</option>
+                <option value="eli5">Explain Like I'm 5</option>
+            </select>
+            <button id="summarize">Summarize</button>
+            <button id = "copy-btn">copy</button>
+        </div>
+        
+
+        <div id="result" >Select a type and click Summarize</div>
+
+        <script src="config.js"></script>
+        <script src="popup.js"></script>
+        
+    </body>
+</html>

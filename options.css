@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #bbe4f8;
+}
+
+h1{
+    text-align: center;
+    color: #0B1D51;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.save-button-container{
+    text-align: center;
+}
+
+button{
+    background-color: #0B1D51;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #040e2d;
+}
+.success-message{
+    color: #220b51;
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
